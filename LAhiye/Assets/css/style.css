@@ -1,0 +1,261 @@
+
+.container{
+    width: 90%;
+    
+}
+
+.navbar {
+   
+    margin-top: -135px !important;
+    display: flex;
+    position: fixed !important;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+   
+    width: 100%;
+
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.icon{
+    margin-top: -5px;
+    position: absolute;
+}
+.cate-text{
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 16px;
+    width: 16px;
+}
+.nav-right {
+    margin-left: 500px;
+    height: 20px;
+    margin-top: -20px;
+    position:absolute;
+
+
+}
+
+.search {
+    height: 49px;
+    border-width: 240px;
+    border-color: #ededed;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.home
+{
+position: relative;
+    /* background: url(/img/img2.jpeg); */
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}  
+.im2{
+    max-width: 180px;
+    margin-left: 211px;
+    margin-top: 145px;
+    position: absolute;
+}
+
+.btnn
+{
+    display: inline-block;
+    height: 50px;
+    line-height: 52px;
+    text-align: center;
+    padding: 0 25px;
+    color: #fff;
+    background: #2b4eff;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+
+.search input{
+    height: 50px;
+    width: 220px;
+}
+
+button {
+    width: 190px;
+    height: 50px;    
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(33, 33, 161) !important;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: -10px;
+
+}
+
+.categorys {
+    margin-left: 20px;
+
+}
+.hide{
+    
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.cate-icon {
+    margin-top: 0px;
+
+}
+
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #ededed;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #e96b56;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    position: relative;
+    z-index: 2;
+  }
+  .images {
+    position: absolute;
+    margin-left: 300px;
+  }
+  .im3{
+    max-width: 50px;
+  }
+  .banner{
+    padding: 50px 40px;
+    display: flex;
+  }
+  
+  .services  {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 6px;
+    border: 2px solid #eef0f6;}
+
+
+.ani1 {
+    margin-left: 115px;
+    margin-top: 151px;
+    display: flex;
+
+}
+.card-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 14% 70px;
+  }
+
+.card   
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 4rem;
+  background-color: #616060;
+  
+}
+.im4 {
+    margin-top: 100px;
+    margin-right: 100px;
+    position: absolute;
+
+}
+
+.ani3 {
+    margin-left: 500px;
+    margin-top: 400px;
+    position: absolute;
+
+}
+
+.ani2 {
+    margin-top: 316px;
+    margin-left: 1470px;
+    position: absolute !important;
+
+}
+
+.ani4 {
+    margin-top: 94px;
+    right: 279px;
+    position: absolute;
+
+}
+
+.ani5 {
+    top: 500px;
+    right: 15%;
+    position: absolute;
+
+}
+
+.footer
+{color: white;
+    background-color: #2b4eff;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20px, auto));
+gap: 2rem;
+}
+
+.footer-box 
+{
+    color: white;
+  display: flex;
+  flex-direction: column;
+}
+.footer-box h3
+{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-box a
+{
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  transition: all .50s ease;
+  text-decoration: none;}
+
+  .social a
+{
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background: #616060;
+  color:whitesmoke ;
+  font-size: 17px;
+  border-radius: 10px ;
+  margin-right: 14px ;
+  transform: 0.6s;
+}   
